@@ -1,0 +1,90 @@
+<html>
+
+	<body>
+<center>
+ <h2>student registration  form</h2>
+</center>
+
+<form id="f1" action="https://www.w3schools.com">
+first name: <input type="text" name="first name"/>
+<br><br>
+last name: <input type ="text" name="last name"/>
+<br><br>
+user id: <input type="text" name="user id"/>
+<br><br>
+password:<input type="password" name="password"/>
+
+<br><br>
+
+Description: <br>
+
+<textarea rows="5" cols="50" name="description">
+  enter description here...
+</textarea>
+<br><br>
+
+
+choose languages: <br>
+		  <input type="checkbox" name="c" value="on">c  <br>
+		  <input type="checkbox" name="java" value="on">java  <br>
+		  <input type="checkbox" name="python" value="on">python  <br>
+ 		  <input type="checkbox" name="database" value="on">database  <br>
+		  <input type="checkbox" name="web technologies" value="on">webtechnologies  <br>
+<br>
+
+choose gender:<br>
+
+<input type="radio" name="gender" value="male">male
+<br><br>
+<input type="radio" name="gender" value="female">female
+<br><br>
+
+select state:<select name="s1">
+	<option value="Andhra pradesh"> AP </option> 
+	<option value="telangana">telangana </option> 
+	<option value="banglore">banglore </option> 
+</select>
+
+<br><br>
+ file upload:<input type="file" name="fileupload" accept="image/*"/> <br><br>
+
+
+
+select date:<label for="start">Start date:</label> <br><br>
+
+<input type="date" id="start" name="trip-start"
+       value="2001-11-23"
+       min="2001-01-01" max="2025-12-31">
+<br><br>
+
+
+choose favorite color:<label for="favcolor"> select your favorite color:</label> <br>
+<input type="color" id="favcolor" name="favcolor"> <br><br>
+
+enter email:<label for="email"> enter your email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+
+number:<label for="quantity">quantity (between 1 and 5):</label> <br>
+<input type="number" id="quantity" name="quantity" min="1" max="5"> <br><br>
+
+
+range:<label for="vol"> volume (between 0 and 50):</label> <br>
+<input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+
+phone:<label for="phone">Enter a phone number:</label><br>
+  <input type="tel" id="phone" name="phone"
+  placeholder="123-45-678"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+<input type = "submit" name = "submit" value = "Submit" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type = "reset" name = "reset"  value = "Reset" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <input type = "button" name = "ok" value = "OK" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+</form>
+
+</body>
+
+</html>
