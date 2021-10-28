@@ -1,0 +1,12 @@
+
+body {
+  
+p{color:pink;background_color:green;border:solid;}
+h1{color:green;background_color:pink;boder:dotted; 
+	text_decoration:line=through}
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
